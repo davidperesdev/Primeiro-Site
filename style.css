@@ -1,0 +1,186 @@
+body {
+    background-image: url(./bancodedados2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    /* código para centralizar toda a página, devido a estar dentro do body */
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: size 30px;
+    margin: center;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+    font-size: 20px;
+}
+.box.svelte-lyhjhx.svelte-lyhjhx.svelte-lyhjhx {
+    background: #009a00
+}
+
+
+.centro {
+    text-align: center;
+}
+
+.imagem5g {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 50px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 8px black;
+    
+}
+
+.web1 {
+    width: 600px;
+    border-radius: 10px;
+    margin-left: 53px;
+    opacity: 0.7;
+    box-shadow: 3px 3px 8px black;
+    height: auto;
+}
+
+div#interface {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.747);
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    width: 1000px;
+    justify-content: center;
+    box-shadow: 3px 3px 5px black;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+nav#menu {
+    display: block;
+    display: flex;
+    justify-content: center;
+    /* Centralizar os menus, acompanhando o tamanho da página */
+    height: 50px;
+}
+
+nav#menu ul {
+    list-style: none;
+    /* Retira a numeração dos menus */
+    text-transform: uppercase;
+    /* letras em maiúsculas */
+    position: absolute;
+    top: -15px;
+    margin-right: 25px;
+}
+
+nav#menu li {
+    display: inline-block;
+    /* Transforma os menus para vertical */
+    background-color: rgba(255, 255, 255, 0.747);
+    /* cor de fundo dos menus */
+    padding: 10px;
+    /* Tamanho da caixa dos menus */
+    margin: 2px;
+    border-radius: 10px;
+    /* borda dos menus */
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    /*Configurando a animação do botão dos menus */
+    background-color: #807f7f;
+}
+
+nav#menu a {
+    /* Configurando os botões */
+    color: black;
+    text-decoration: none;
+
+}
+
+nav#menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+section#corpo {
+    display: block;
+    width: 370px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding: 10px;
+    padding-right: 120px;   
+}
+
+section#corpo P {
+    text-align: auto
+}
+
+aside#lateral {
+    display: block;
+    width: 370px;
+    float: right;
+    padding: 10px;
+    text-indent: 50px;
+}
+
+aside#lateral p {
+    text-align: auto;
+}
+
+table#tabelaspec{
+    border: 2px solid #1311113f;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+table#tabelaspec td {
+    border: 2px solid #1311113f;
+    padding: 8px; 
+    text-align: left;
+}
+
+table#tabelaspec td.esquerda {
+    color: white;
+    background-color: #606060;
+    font-weight: bold;
+}
+
+caption {
+    color: #1b1b1b;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+span {
+    display: block;
+    float: right;
+    color: #606060;
+    font-size: 8pt;
+    margin-top: 10px;
+}pt/
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #60606005;
+}
+
+footer#rodape P{
+    text-align: center;
+}
+

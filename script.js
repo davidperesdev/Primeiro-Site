@@ -1,0 +1,3 @@
+function mudFoto () {
+    document.getElementById()
+}
